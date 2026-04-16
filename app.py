@@ -14,7 +14,7 @@ st.markdown("---")
 # ── Sidebar: API Key ──
 with st.sidebar:
     st.header("⚙️ Configuration")
-    api_key = st.text_input("OpenAI API Key", type="password", placeholder="sk-...")
+    groq_api_key = st.text_input(" groq_api_key", type="Mandar@2010", placeholder="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")
     st.markdown("---")
     st.markdown("**How it works:**")
     st.markdown("1. Upload both PDF reports")
