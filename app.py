@@ -2,7 +2,7 @@ import streamlit as st
 import tempfile
 import os
 from extractor import extract_from_pdf
-from ai_processor import generate_ddr 
+from ai_processor import generate_DDR
 from report_builder import build_html_report
 
 st.set_page_config(page_title="DDR Report Generator", page_icon="🏠", layout="wide")
