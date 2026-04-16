@@ -2,6 +2,7 @@ import streamlit as st
 import tempfile
 import os
 from extractor import extract_from_pdf
+pip install ai_processor 
 from ai_processor import generate_ddr 
 from report_builder import build_html_report
 
