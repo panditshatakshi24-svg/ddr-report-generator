@@ -1,4 +1,5 @@
 import json
+pip install groq
 from groq import Groq
 
 DDR_PROMPT = """
