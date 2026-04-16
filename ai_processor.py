@@ -43,7 +43,7 @@ Return ONLY valid JSON with this structure:
 }
 """
 
-def generate_ddr(inspection_text: str, thermal_text: str, api_key: str) -> dict:
+def generate_DDR(inspection_text: str, thermal_text: str, api_key: str) -> dict:
     client = Groq(api_key=api_key)
 
     user_message = f"""
