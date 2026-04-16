@@ -1,5 +1,5 @@
 import json
-from groq import Groq
+from groq import groq
 
 DDR_PROMPT = """
 You are an expert building diagnostics report writer.
